@@ -19,7 +19,7 @@ try{
 if(!q) return await reply("Please give me tiktok url");
   if(!q.includes('facebook.com')) return await reply("This url is invalid");
   
-const fb2 = await fetchJson(`https://dark-yasiya-api-new.vercel.app/download/fbdl1?url=${q}`);
+const fb2 = await fetchJson(`https://www.dark-yasiya-api.site/download/fbdl1?url=${q}`);
 
 
      let desc = ` *BLACK LEAUGE MD FB DOWNLOADER...⚙️*
@@ -78,7 +78,7 @@ try{
 if(!q) return await reply("Please give me tiktok url");
   if(!q.includes('tiktok.com')) return await reply("This url is invalid");
   
-const tiktok = await fetchJson(`https://dark-yasiya-api-new.vercel.app/download/tiktok?url=${q}`);
+const tiktok = await fetchJson(`https://www.dark-yasiya-api.site/download/tiktok?url=${q}`);
   
 
  
