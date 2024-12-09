@@ -130,24 +130,3 @@ reply(e)
 }
 });
 
-
-cmd({
-    pattern: "jid",
-    desc: "Get the JID of the chat.",
-    category: "main",
-   // react: "🔍",
-    filename: __filename
-}, async (conn, mek, m, { from, reply }) => {
-    try {
-       
-        
-        const chatJid = from;
-
-        
-       await reply (`${chatJid}`)
-
-    } catch (e) {
-        console.error(e);
-        reply(`${e}`);
-    }
-});
